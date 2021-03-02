@@ -2,8 +2,13 @@
   "name": "vite-vue-template",
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "start": "npm i",
+    "dev": "vite --mode dev",
+    "build": "npm run build:prod",
+    "build:dev": "vite build --mode dev",
+    "build:test": "vite build --mode test",
+    "build:stg": "vite build --mode stage",
+    "build:prod": "vite build --mode prod",
     "serve": "vite preview"
   },
   "dependencies": {
