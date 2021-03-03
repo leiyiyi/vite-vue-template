@@ -1,5 +1,6 @@
 {
   "name": "vite-vue-template",
+  "description": "vv-tpl 脚手架",
   "version": "0.0.1",
   "scripts": {
     "start": "npm i",
@@ -13,7 +14,9 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "vue": "^3.0.7"
+    "vue": "^3.0.7",
+    "vue-router": "^4.0.4",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.4",
